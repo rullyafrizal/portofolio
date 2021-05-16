@@ -66,7 +66,7 @@ ul{
   padding: 0;
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
 img{
@@ -214,6 +214,7 @@ img{
 }
 .home__img{
   position: absolute;
+  margin-bottom: 80px;
   right: 0;
   bottom: 0;
   width: 295px;
@@ -242,6 +243,7 @@ img{
 }
 .about__img{
   justify-self: center;
+  
 }
 .about__img img{
   width: 200px;
@@ -288,21 +290,34 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
-  width: 95%;
+.skills__java{
+  width: 100%;
 }
-.skills__css{
-  width: 85%;
+.skills__vue{
+  width: 100%;
 }
 .skills__js{
-  width: 65%;
+  width: 100%;
 }
-.skills__ux{
-  width: 85%;
+.skills__node{
+  width: 100%;
 }
-.skills__img{
-  border-radius: .5rem;
+.skills__ts{
+  width: 100%;
 }
+.skills__php{
+  width: 100%;
+}
+.skills__git{
+  width: 100%;
+}
+.skills__laravel{
+  width: 100%;
+}
+.skills__api{
+  width: 100%;
+}
+
 
 /* ===== WORK =====*/
 .work__container{
@@ -318,7 +333,25 @@ img{
   cursor: pointer;
 }
 .work__img img:hover{
-  transform: scale(1.1);
+  transform: scale(1.15);
+}
+
+
+/* Card Projects */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 10px 10px 16px 16px;
 }
 
 /* ===== CONTACT =====*/
