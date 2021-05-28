@@ -29,29 +29,29 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 2000,
+    duration: 1000,
     reset: true
 });
 
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
-sr.reveal('.button',{delay: 200}); 
-sr.reveal('.home__img',{delay: 300}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
+sr.reveal('.button',{delay: 30}); 
+sr.reveal('.home__img',{delay: 30}); 
+sr.reveal('.home__social-icon',{ interval: 30}); 
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img',{}); 
-sr.reveal('.about__subtitle',{delay: 200}); 
-sr.reveal('.about__text',{delay: 400}); 
+sr.reveal('.about__subtitle',{delay: 30}); 
+sr.reveal('.about__text',{delay: 30}); 
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{interval: 200}); 
-sr.reveal('.skills__img',{delay: 400});
+sr.reveal('.skills__data',{interval: 30}); 
+sr.reveal('.skills__img',{delay: 30});
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 200}); 
+sr.reveal('.work__img',{interval: 30}); 
 
 const now = new Date(Date.now());
 const year = now.getFullYear();
