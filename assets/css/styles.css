@@ -11,6 +11,7 @@
   --first-color: #4070F4;
   --second-color: #0E2431;
   --third-color: #ff0021;
+  --transparent: #ffffff00;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -235,9 +236,9 @@ img{
 }
 .button-sm{
   display: inline-block;
-  background-color: var(--third-color);
-  color: #fff;
-  padding: .15rem 2.0rem;
+  background-color: var(--transparent);
+  color: #000;
+  padding: .15rem 1.25rem;
   font-weight: var(--font-semi);
   border-radius: .4rem;
 }
