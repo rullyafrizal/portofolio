@@ -10,6 +10,7 @@
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
+  --third-color: #ff0021;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -223,13 +224,24 @@ img{
 /*BUTTONS*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--third-color);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
 .button:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
+.button-sm{
+  display: inline-block;
+  background-color: var(--third-color);
+  color: #fff;
+  padding: .15rem 2.0rem;
+  font-weight: var(--font-semi);
+  border-radius: .4rem;
+}
+.button-sm:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
@@ -332,6 +344,18 @@ img{
   transition: 1s;
 }
 .work__img img:hover{
+  transform: scale(1.12);
+}
+
+.work__img2{
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  border-radius: .5rem;
+  overflow: hidden;
+}
+.work__img2 img{
+  transition: 1s;
+}
+.work__img2 img:hover{
   transform: scale(1.12);
 }
 
